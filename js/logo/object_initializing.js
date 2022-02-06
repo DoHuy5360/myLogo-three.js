@@ -6,7 +6,7 @@ const mother = new ObjectCreater();
 
 function logo_H(mother) {
   const displayText1 = mother.createText(fontJSON, "H", "#16DCD4", 10, 3);
-  mother.position(displayText1, 5, -6, -10);
+  mother.position(displayText1, 0, -5, 0);
   mother.rotation(displayText1, 0, 0, 0.5);
   return displayText1;
 }

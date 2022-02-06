@@ -4,12 +4,12 @@ import { object_adding, mother, logoH } from "./object_initializing.js";
 
 const wrapCanvas = document.querySelector(".wrap-canvas");
 const camera = new PerspectiveCamera(
-  60,
+  75,
   wrapCanvas.offsetWidth / wrapCanvas.offsetHeight,
   0.1,
   100
 );
-camera.position.z = 10;
+camera.position.z = 15;
 const renderer = new WebGLRenderer({
   antialias: true,
   canvas: document.querySelector("canvas"),
